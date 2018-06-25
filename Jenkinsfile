@@ -9,6 +9,8 @@ hose {
     DEV = { config ->
         echo 'THIS IS MASTER'
         doCompile(config)
-	doUT(config)
+	    doUT(config)
+        doIT(config)
+
     }
 }
