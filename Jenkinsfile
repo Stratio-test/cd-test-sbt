@@ -11,6 +11,6 @@ hose {
         doCompile(config)
 	    doUT(config)
         doIT(config)
-
+        doPackage(config)
     }
 }
