@@ -12,5 +12,6 @@ hose {
 	    doUT(config)
         doIT(config)
         doPackage(config)
+        doDeploy(config)
     }
 }
